@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: url('https://assets.losspreventionmedia.com/2022/09/Travel-Safety-1280x720-1-696x392.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #1c1c1c;
+  color: rgb(255, 255, 255);
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 400px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0;
+  text-decoration:underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #888;
+}
+
+.role-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #16a0aa;
+  color: #000;
+}
+.role-btn a{
+  text-decoration: none;
+}
+
+.register {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.register a {
+  color: violet;
+  text-decoration: none;
+  margin-left: 5px;
+}

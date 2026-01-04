@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: url('https://assets.losspreventionmedia.com/2022/09/Travel-Safety-1280x720-1-696x392.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 400px;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+}
+
+.register-box label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background: #444;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.register-btn a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.login-link a {
+  color: violet;
+  text-decoration: none;
+  margin-left: 5px;
+}

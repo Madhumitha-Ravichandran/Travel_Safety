@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Info - Admin Panel</title>
+  <link rel="stylesheet" href="userinfo.css" />
+  <script src="userinfo.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Admin</h2>
+      <nav>
+        <button class="nav-btn"><a href="admindashboard.html">Dashboard</a></button>
+        <button class="nav-btn active">User Info</button>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="header-row">
+        <button class="back-btn">🔙</button>
+        <h1>User Information data</h1>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search by name..." />
+        <button onclick="searchTable()">🔍</button>
+      </div>
+
+      <div class="table-container">
+        <table id="userTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Phone number</th>
+              <th>Emergency contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Madhumitha R</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Ravichandran M</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Mohana devi R</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Sarmeelaa R</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Kirthika R</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Krishna M</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Shiva K</td><td>9585499531</td><td>9841068265</td></tr>
+            <tr><td>Vijay S</td><td>9585499531</td><td>9841068265</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

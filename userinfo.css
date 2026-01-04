@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaf4fb;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #1c1c1c;
+  color: white;
+  width: 220px;
+  padding: 2rem 1rem;
+}
+
+.sidebar h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn.active,
+.nav-btn:hover {
+  background-color: #0b4e75;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #cdeaff;
+  padding: 2rem;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #f3f3f3;
+}
